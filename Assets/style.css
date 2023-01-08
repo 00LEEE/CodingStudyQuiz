@@ -1,10 +1,10 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Lucida Sans;
+    font-family:'Times New Roman'
 }
 
 :root {
-    --hue-neutral: 200
+    --hue-neutral: 200;
     --hue-wrong: 0;
     --hue-correct: 145;
 }
@@ -48,7 +48,7 @@ body.wrong {
 .btn {
     --hue: var(--hue-neutral)
     border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100% 50%);
+    background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
