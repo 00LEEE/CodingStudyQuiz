@@ -114,30 +114,30 @@ const questions = [
         ]
     },
     {
-        question: 'What is 2 + 2',
+        question: 'How many fingers does a person have?',
         answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false},
-            { text: 'Horse?', correct: false},
-            { text: 'V8 Engine..', correct: false}
+            { text: '4 fungers', correct: false},
+            { text: '22 Fingy', correct: false},
+            { text: 'Frosted Flakes', correct: false},
+            { text: '5 Fingers', correct: true}
         ]
     },
     {
-        question: 'What is 2 + 2',
+        question: 'Does Nicholas Cage have brown hair?',
         answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false},
-            { text: 'Horse?', correct: false},
-            { text: 'V8 Engine..', correct: false}
+            { text: 'Yes', correct: true},
+            { text: 'Blonde', correct: false},
+            { text: 'No', correct: false},
+            { text: 'Pink', correct: false}
         ]
     },
     {
-        question: 'What is 2 + 2',
+        question: 'Who is the best Avenger Superhero?',
         answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false},
-            { text: 'Horse?', correct: false},
-            { text: 'V8 Engine..', correct: false}
+            { text: 'Spiderman', correct: false},
+            { text: 'The Hulk', correct: false},
+            { text: 'Ironman', correct: true},
+            { text: 'Thor', correct: false}
         ]
     }
 ]
