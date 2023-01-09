@@ -80,52 +80,64 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is 2 + 2',
+        question: 'What is the power house of the cell?',
         answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false}
+            { text: 'Mitochondria', correct: true},
+            { text: 'Cell', correct: false},
+            { text: 'Horse?', correct: false},
+            { text: 'V8 Engine..', correct: false}
+        ]
+    },
+    {
+        question: 'Who is Joe Biden?',
+        answers: [
+            { text: 'US President', correct: true},
+            { text: '4', correct: false},
+            { text: 'Guy', correct: false},
+            { text: 'Joe Biden', correct: true}
+        ]
+    },
+    {
+        question: 'Who is Aunt Jemima?',
+        answers: [
+            { text: 'Jack Sparrow', correct: false},
+            { text: 'Koles Sister', correct: false},
+            { text: 'Syrup Lady', correct: true},
+            { text: 'Someone', correct: false}
+        ]
+    },
+    {
+        question: 'Do you want to be friends with Kole?',
+        answers: [
+            { text: 'HELL YEAH!', correct: true},
+            { text: 'Stranger Danger', correct: false},
         ]
     },
     {
         question: 'What is 2 + 2',
         answers: [
             { text: '4', correct: true},
-            { text: '22', correct: false}
+            { text: '22', correct: false},
+            { text: 'Horse?', correct: false},
+            { text: 'V8 Engine..', correct: false}
         ]
     },
     {
         question: 'What is 2 + 2',
         answers: [
             { text: '4', correct: true},
-            { text: '22', correct: false}
+            { text: '22', correct: false},
+            { text: 'Horse?', correct: false},
+            { text: 'V8 Engine..', correct: false}
         ]
     },
     {
         question: 'What is 2 + 2',
         answers: [
             { text: '4', correct: true},
-            { text: '22', correct: false}
-        ]
-    },
-    {
-        question: 'What is 2 + 2',
-        answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false}
-        ]
-    },
-    {
-        question: 'What is 2 + 2',
-        answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false}
-        ]
-    },
-    {
-        question: 'What is 2 + 2',
-        answers: [
-            { text: '4', correct: true},
-            { text: '22', correct: false}
+            { text: '22', correct: false},
+            { text: 'Horse?', correct: false},
+            { text: 'V8 Engine..', correct: false}
         ]
     }
 ]
